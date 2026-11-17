@@ -1,0 +1,10 @@
+# 배포에는 쓰는 사람에게 필요한 것만 — 정리기 화면 · rules/ · data/
+# 먼저 전부 빼고, 필요한 것만 다시 넣는다.
+/*
+!index.html
+!app.js
+!clean.js
+!style.css
+!lib
+!rules
+!data

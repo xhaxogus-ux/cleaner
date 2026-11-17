@@ -1,0 +1,28 @@
+# 저장소(GitHub 공개)에 올리는 것 — 정리기 화면 · rules/ · data/ · README · 정리/ 의 정리 스크립트(코드만)
+# 이 목록에 없는 것은 올리지 않는다.
+
+# 어디에도 올리지 않는다
+# tools/ — tools/answer/ 의 정답, 그리고 정답을 읽는 확인 도구 check.js
+tools/
+# 정리 스크립트를 돌리면 다시 나오는 결과
+정리본/
+진단/
+
+# 그 밖의 csv · xlsx — data/ 의 예시 파일만 올린다
+*.csv
+*.xlsx
+*.xls
+!data/*.csv
+!data/*.xlsx
+
+# 정리/ 에서는 코드만
+정리/*
+!정리/*.py
+
+# 내 컴퓨터 설정 · 실행 부산물
+.claude/
+.vercel/
+node_modules/
+__pycache__/
+.env
+.env.*
